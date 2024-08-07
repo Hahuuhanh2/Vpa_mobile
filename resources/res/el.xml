@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/main" android:tag="layout/activity_searching_0" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/dp_16" android:layout_marginRight="@dimen/dp_16" android:layout_marginHorizontal="@dimen/dp_16">
+    <include android:id="@+id/toolbar" layout="@layout/layout_toolbar"/>
+    <RelativeLayout android:id="@+id/rlFilter" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_16" android:layout_below="@+id/toolbar">
+        <androidx.appcompat.widget.SearchView android:theme="@style/SearchView" android:id="@+id/searchView" android:background="@drawable/bg_filter_button" android:layout_width="match_parent" android:layout_height="@dimen/dp_56" android:maxLength="255" android:layout_marginEnd="@dimen/dp_16" android:layout_toStartOf="@+id/btnFilter" app:closeIcon="@drawable/ic_close_sv" app:iconifiedByDefault="false" app:queryBackground="@android:color/transparent" app:queryHint="Tìm kiếm" app:searchIcon="@drawable/ic_search"/>
+        <ImageButton android:id="@+id/btnFilter" android:background="@drawable/bg_filter_button" android:layout_width="@dimen/dp_56" android:layout_height="@dimen/dp_56" android:src="@drawable/ic_filter" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_16" android:layout_marginBottom="@dimen/dp_16" android:layout_marginVertical="@dimen/dp_16">
+            <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_16" android:textColor="#e2e8f0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Danh sách biển số tiêu biểu"/>
+            <com.ots.base.utils.customview.GradientTextView android:textSize="@dimen/sp_14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Xem thêm" android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <com.ots.core.base.BaseRecyclerView android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_16" android:layout_marginBottom="@dimen/dp_16" android:layout_marginVertical="@dimen/dp_16">
+            <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_16" android:textColor="#e2e8f0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Kết quả"/>
+            <com.ots.base.utils.customview.GradientTextView android:textSize="@dimen/sp_14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Xem thêm" android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <com.ots.core.base.BaseRecyclerView android:id="@+id/rvSearching" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

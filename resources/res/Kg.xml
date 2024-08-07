@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8">
+    <ImageButton android:id="@+id/btnBack" android:background="@drawable/ic_back" android:layout_width="@dimen/dp_45" android:layout_height="@dimen/dp_45"/>
+    <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_18" android:textColor="@color/white" android:gravity="center" android:id="@+id/tvTitle" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:textAllCaps="true"/>
+    <ImageButton android:id="@+id/btnMore" android:background="@color/transparent" android:layout_width="@dimen/dp_45" android:layout_height="@dimen/dp_45"/>
+</LinearLayout>

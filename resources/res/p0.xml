@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="layout/time_dialog_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/dp_8" app:cardBackgroundColor="@color/white" app:strokeColor="@color/white" app:strokeWidth="@null">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/dp_8" android:paddingTop="@dimen/dp_15" android:paddingRight="@dimen/dp_8" android:paddingBottom="@dimen/dp_5" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/dp_8">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/main_bg" android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Ngày tháng năm" android:layout_weight="1.2"/>
+                <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/main_bg" android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Giờ" android:layout_weight="1"/>
+                <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/main_bg" android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Phút" android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <androidx.recyclerview.widget.RecyclerView android:id="@+id/yearView" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1.2"/>
+                <androidx.recyclerview.widget.RecyclerView android:id="@+id/monthView" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+                <androidx.recyclerview.widget.RecyclerView android:id="@+id/dayView" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/llConfirm" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/sp_14" android:textColor="@color/red" android:gravity="center" android:id="@+id/tvCancel" android:background="@color/gray_300" android:paddingTop="@dimen/dp_10" android:paddingBottom="@dimen/dp_10" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?attr/selectableItemBackgroundBorderless" android:text="@string/cancel" android:layout_weight="1" android:paddingVertical="@dimen/dp_10"/>
+            <View android:id="@+id/v_ui_line" android:background="@color/gray_200" android:layout_width="1dp" android:layout_height="match_parent"/>
+            <TextView android:textSize="@dimen/sp_14" android:textColor="@color/white" android:gravity="center" android:id="@+id/tvConfirm" android:background="@color/main_bg" android:paddingTop="@dimen/dp_10" android:paddingBottom="@dimen/dp_10" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?attr/selectableItemBackgroundBorderless" android:text="@string/confirm" android:layout_weight="1" android:paddingVertical="@dimen/dp_10"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

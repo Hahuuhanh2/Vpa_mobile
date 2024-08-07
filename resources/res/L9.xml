@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/dialog_win_auction_0" android:layout_width="match_parent" android:layout_height="wrap_content" app:cardBackgroundColor="#192639" app:cardCornerRadius="@dimen/dp_16" app:cardElevation="5dp" app:cardUseCompatPadding="true" app:strokeWidth="0dp">
+    <RelativeLayout android:padding="@dimen/dp_10" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/imvIcon" android:layout_width="wrap_content" android:layout_height="@dimen/dp_200" android:src="@drawable/ic_win_auction" android:layout_centerHorizontal="true"/>
+        <ImageButton android:id="@+id/btnClose" android:background="?attr/selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dp_10" android:src="@drawable/ic_close" android:layout_alignParentEnd="true"/>
+        <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_20" android:textColor="@color/white" android:id="@+id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10" android:text="Trúng đấu giá!" android:layout_below="@+id/imvIcon" android:layout_centerHorizontal="true" app:styleText="1"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dp_16" android:layout_below="@+id/tvTitle">
+            <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_14" android:textColor="@color/white_100" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bạn là người trả giá cao nhất và trúng đấu giá"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_4" android:layout_marginBottom="@dimen/dp_4" android:layout_marginVertical="@dimen/dp_4">
+                <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_12" android:textColor="#cbd5e1" android:layout_width="@dimen/dp_85" android:layout_height="wrap_content" android:text="Biển số: "/>
+                <com.ots.base.utils.customview.GradientTextView android:textSize="@dimen/sp_14" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/sf_pro_display"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_12" android:textColor="#cbd5e1" android:layout_width="@dimen/dp_85" android:layout_height="wrap_content" android:text="Giá đã trả: "/>
+                <com.ots.base.utils.customview.GradientTextView android:textSize="@dimen/sp_14" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/sf_pro_display"/>
+            </LinearLayout>
+            <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_12" android:textColor="#94a3b8" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_4"/>
+            <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_14" android:textColor="@color/white_100" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_4" android:text="Biên bản đấu giá sẽ được gửi về “Tài liệu của tôi”."/>
+            <Button android:textSize="@dimen/sp_14" android:id="@+id/btnConfirm" android:background="@drawable/bg_button" android:layout_width="match_parent" android:layout_height="@dimen/dp_52" android:layout_marginTop="@dimen/dp_16" android:text="Xác nhận" android:fontFamily="@font/sf_pro_display" app:backgroundTint="@null" app:cornerRadius="@dimen/dp_8"/>
+        </LinearLayout>
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>

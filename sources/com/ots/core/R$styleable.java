@@ -1,0 +1,72 @@
+package com.ots.core;
+
+public final class R$styleable {
+    public static final int[] AppTextViewWidget = {R$attr.styleText, R$attr.textRequired};
+    public static final int AppTextViewWidget_styleText = 0;
+    public static final int AppTextViewWidget_textRequired = 1;
+    public static final int[] AppTitleTextViewWidget = {R$attr.textSetting, R$attr.textTitle};
+    public static final int AppTitleTextViewWidget_textSetting = 0;
+    public static final int AppTitleTextViewWidget_textTitle = 1;
+    public static final int[] CustomEditTextWidget = {16843296, R$attr.edtBackgroundColor, R$attr.edtFormText, R$attr.edtHint, R$attr.edtHintTitle, R$attr.edtIconEnd, R$attr.edtIconStart, R$attr.edtRequired, R$attr.edtTitle, R$attr.edtTitleSize, R$attr.isError, R$attr.validatorType};
+    public static final int CustomEditTextWidget_android_inputType = 0;
+    public static final int CustomEditTextWidget_edtBackgroundColor = 1;
+    public static final int CustomEditTextWidget_edtFormText = 2;
+    public static final int CustomEditTextWidget_edtHint = 3;
+    public static final int CustomEditTextWidget_edtHintTitle = 4;
+    public static final int CustomEditTextWidget_edtIconEnd = 5;
+    public static final int CustomEditTextWidget_edtIconStart = 6;
+    public static final int CustomEditTextWidget_edtRequired = 7;
+    public static final int CustomEditTextWidget_edtTitle = 8;
+    public static final int CustomEditTextWidget_edtTitleSize = 9;
+    public static final int CustomEditTextWidget_isError = 10;
+    public static final int CustomEditTextWidget_validatorType = 11;
+    public static final int[] CustomFormWidget = {16843296, 2130969185, 2130969186, 2130969187, 2130969198};
+    public static final int CustomFormWidget_android_inputType = 0;
+    public static final int CustomFormWidget_formHint = 1;
+    public static final int CustomFormWidget_formText = 2;
+    public static final int CustomFormWidget_formTitle = 3;
+    public static final int CustomFormWidget_heightForm = 4;
+    public static final int[] CustomMenuWidget = {2130969498, 2130969500, 2130969501, 2130969502};
+    public static final int CustomMenuWidget_menuBackgroundColor = 0;
+    public static final int CustomMenuWidget_menuIconEnd = 1;
+    public static final int CustomMenuWidget_menuIconStart = 2;
+    public static final int CustomMenuWidget_menuTitle = 3;
+    public static final int[] CustomSearchViewWidget = {2130969383, 2130969710, 2130969729};
+    public static final int CustomSearchViewWidget_leftIcon = 0;
+    public static final int CustomSearchViewWidget_removeIcon = 1;
+    public static final int CustomSearchViewWidget_searchHint = 2;
+    public static final int[] DropDownWidget = {16843296, R$attr.allowMultiSelect, R$attr.ddBackgroundColor, R$attr.ddHint, R$attr.ddIconEnd, R$attr.ddIconStart, R$attr.ddRequired, R$attr.ddText, R$attr.ddTitle, R$attr.ddValidatorType};
+    public static final int DropDownWidget_allowMultiSelect = 1;
+    public static final int DropDownWidget_android_inputType = 0;
+    public static final int DropDownWidget_ddBackgroundColor = 2;
+    public static final int DropDownWidget_ddHint = 3;
+    public static final int DropDownWidget_ddIconEnd = 4;
+    public static final int DropDownWidget_ddIconStart = 5;
+    public static final int DropDownWidget_ddRequired = 6;
+    public static final int DropDownWidget_ddText = 7;
+    public static final int DropDownWidget_ddTitle = 8;
+    public static final int DropDownWidget_ddValidatorType = 9;
+    public static final int[] ImageWidget = {R$attr.column, R$attr.flow, R$attr.maxCount, R$attr.orientationRcv};
+    public static final int ImageWidget_column = 0;
+    public static final int ImageWidget_flow = 1;
+    public static final int ImageWidget_maxCount = 2;
+    public static final int ImageWidget_orientationRcv = 3;
+    public static final int[] RegexEditText = {2130969250, 2130969704};
+    public static final int RegexEditText_inputRegex = 0;
+    public static final int RegexEditText_regexType = 1;
+    public static final int[] TimePickerWidget = {16843296, R$attr.timeBackgroundColor, R$attr.timeFormat, R$attr.timeHint, R$attr.timeIconEnd, R$attr.timeIconStart, R$attr.timeRequired, R$attr.timeText, R$attr.timeTitle, R$attr.timeValidatorType};
+    public static final int TimePickerWidget_android_inputType = 0;
+    public static final int TimePickerWidget_timeBackgroundColor = 1;
+    public static final int TimePickerWidget_timeFormat = 2;
+    public static final int TimePickerWidget_timeHint = 3;
+    public static final int TimePickerWidget_timeIconEnd = 4;
+    public static final int TimePickerWidget_timeIconStart = 5;
+    public static final int TimePickerWidget_timeRequired = 6;
+    public static final int TimePickerWidget_timeText = 7;
+    public static final int TimePickerWidget_timeTitle = 8;
+    public static final int TimePickerWidget_timeValidatorType = 9;
+
+    public R$styleable() {
+        throw null;
+    }
+}

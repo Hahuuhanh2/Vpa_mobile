@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="layout/item_scope_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_16">
+    <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_14" android:textColor="@color/dark_200" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Kế hoạch KHDG20230618.191219" app:styleText="1"/>
+    <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_16" app:cardBackgroundColor="#192639" app:strokeColor="@color/dark_500">
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/dp_16" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/rcvInfo" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

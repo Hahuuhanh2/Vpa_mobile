@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:height="82dp" android:width="138dp" android:viewportWidth="138" android:viewportHeight="82">
+    <path android:fillColor="@drawable/$bg_icon_snack_bar_warning__0" android:pathData="M32,41m-106,0a106,106 0,1 1,212 0a106,106 0,1 1,-212 0" android:fillAlpha="0.12"/>
+</vector>

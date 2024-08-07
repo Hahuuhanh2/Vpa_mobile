@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/main" android:tag="layout/activity_payment_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_16" android:layout_marginRight="@dimen/dp_16" android:layout_marginHorizontal="@dimen/dp_16" layout="@layout/layout_toolbar"/>
+    <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dp_16" app:cardBackgroundColor="#192639" app:cardCornerRadius="@dimen/dp_12" app:strokeWidth="0dp">
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/dp_16" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_14" android:textColor="#fdfeff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Chi tiết thanh toán"/>
+            <View android:background="@drawable/bg_dash_line" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="@dimen/dp_8" android:layout_marginBottom="@dimen/dp_8" android:layout_marginVertical="@dimen/dp_8"/>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8" android:layout_marginBottom="@dimen/dp_8" android:layout_marginVertical="@dimen/dp_8">
+                <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_12" android:textColor="#cbd5e1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Số tiền:"/>
+                <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_14" android:textColor="#fdfeff" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8" android:layout_marginBottom="@dimen/dp_8" android:layout_marginVertical="@dimen/dp_8">
+                <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_12" android:textColor="#cbd5e1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Phí hồ sơ:"/>
+                <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_14" android:textColor="#fdfeff" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true"/>
+            </RelativeLayout>
+            <View android:background="@drawable/bg_dash_line" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="@dimen/dp_8" android:layout_marginBottom="@dimen/dp_8" android:layout_marginVertical="@dimen/dp_8"/>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8">
+                <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_12" android:textColor="#cbd5e1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tổng tiền:"/>
+                <com.ots.base.utils.customview.GradientTextView android:textSize="@dimen/sp_14" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/sf_pro_display" android:layout_alignParentEnd="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_card_payment" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.google.android.material.tabs.TabLayout android:id="@+id/tabLayout" android:background="#192639" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_12" android:layout_marginRight="@dimen/dp_12" android:layout_marginHorizontal="@dimen/dp_12" app:tabIndicatorColor="#01b49a" app:tabIndicatorFullWidth="true" app:tabMode="1" app:tabSelectedTextColor="#fdfeff" app:tabTextColor="#cbd5e1"/>
+        <androidx.viewpager2.widget.ViewPager2 android:id="@+id/viewPager" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>

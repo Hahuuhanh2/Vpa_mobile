@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/address_select_dialog_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_radius_top_10_dp" android:paddingTop="@dimen/dp_8" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/dp_4" android:backgroundTint="#192639">
+        <View android:layout_gravity="center" android:background="@drawable/top_line" android:layout_width="50dp" android:layout_height="4dp" android:layout_margin="2dp"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/container" android:paddingLeft="@dimen/dp_16" android:paddingRight="@dimen/dp_16" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:paddingHorizontal="@dimen/dp_16">
+            <TextView android:textSize="@dimen/sp_16" android:textColor="@color/white_100" android:gravity="center" android:id="@+id/tvTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_4" android:text="Chọn phản ánh"/>
+            <androidx.appcompat.widget.SearchView android:theme="@style/SearchView" android:id="@+id/searchView" android:background="@drawable/bg_from_search" android:layout_width="match_parent" android:layout_height="@dimen/dp_56" android:layout_marginTop="@dimen/dp_16" android:maxLength="255" app:closeIcon="@drawable/ic_close_sv" app:iconifiedByDefault="false" app:queryBackground="@android:color/transparent" app:queryHint="Nhập tên tỉnh, thành phố" app:searchIcon="@drawable/ic_search"/>
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/rcvItem" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <com.ots.base.utils.customview.EmptyView android:id="@+id/emptyView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_16" app:evIcon="@drawable/ic_note_history" app:evMessage="" app:evTitle="Không tìm thấy kết quả nào"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

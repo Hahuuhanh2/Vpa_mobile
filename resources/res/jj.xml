@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/item_tab_home_selected" android:id="@+id/navigation_home" android:title="@string/title_home"/>
+    <item android:icon="@drawable/item_tab_register_selected" android:id="@+id/navigation_active" android:title="Đ.ký đấu giá"/>
+    <item android:icon="@drawable/item_tab_waiting_selected" android:id="@+id/navigation_waiting" android:title="Chờ đấu giá"/>
+    <item android:icon="@drawable/item_tab_auction_selected" android:id="@+id/navigation_action" android:title="P.đấu giá"/>
+    <item android:icon="@drawable/item_tab_user_selected" android:id="@+id/navigation_menu" android:title="@string/title_menu"/>
+</menu>

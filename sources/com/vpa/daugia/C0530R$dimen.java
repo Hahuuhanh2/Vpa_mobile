@@ -1,0 +1,88 @@
+package com.vpa.daugia;
+
+/* renamed from: com.vpa.daugia.R$dimen  reason: case insensitive filesystem */
+public final class C0530R$dimen {
+    public static final int avatar = 2131165270;
+    public static final int banner_height = 2131165271;
+    public static final int button_height = 2131165274;
+    public static final int button_text_size = 2131165275;
+    public static final int content_height = 2131165287;
+    public static final int content_width = 2131165288;
+    public static final int dialog_minHeight = 2131165340;
+    public static final int dimen_1 = 2131165341;
+    public static final int dimen_10 = 2131165342;
+    public static final int dimen_24 = 2131165343;
+    public static final int dimen_36 = 2131165344;
+    public static final int dimen_4 = 2131165345;
+    public static final int dimen_40 = 2131165346;
+    public static final int dimen_5 = 2131165347;
+    public static final int dimen_8 = 2131165348;
+    public static final int dp_10 = 2131165354;
+    public static final int dp_6 = 2131165681;
+    public static final int fab_margin = 2131165737;
+    public static final int font_balance = 2131165742;
+    public static final int font_content = 2131165743;
+    public static final int font_header = 2131165744;
+    public static final int font_rating = 2131165745;
+    public static final int font_splash = 2131165746;
+    public static final int font_title = 2131165747;
+    public static final int font_toolbar = 2131165748;
+    public static final int footer_icon = 2131165749;
+    public static final int global_card_padding = 2131165761;
+    public static final int global_padding_large = 2131165762;
+    public static final int header_padding_top = 2131165763;
+    public static final int height_button = 2131165764;
+    public static final int ic_back = 2131165772;
+    public static final int icon_calendar = 2131165773;
+    public static final int item_image = 2131165775;
+    public static final int item_padding = 2131165776;
+    public static final int item_padding_small = 2131165777;
+    public static final int job_status_line = 2131165781;
+    public static final int job_status_padding = 2131165782;
+    public static final int line_radius = 2131165783;
+    public static final int more_icon = 2131166203;
+    public static final int radius_input = 2131166421;
+    public static final int sp_10 = 2131166423;
+    public static final int sp_11 = 2131166424;
+    public static final int sp_12 = 2131166425;
+    public static final int sp_13 = 2131166426;
+    public static final int sp_14 = 2131166427;
+    public static final int sp_15 = 2131166428;
+    public static final int sp_16 = 2131166429;
+    public static final int sp_17 = 2131166430;
+    public static final int sp_18 = 2131166431;
+    public static final int sp_19 = 2131166432;
+    public static final int sp_20 = 2131166433;
+    public static final int sp_21 = 2131166434;
+    public static final int sp_22 = 2131166435;
+    public static final int sp_23 = 2131166436;
+    public static final int sp_24 = 2131166437;
+    public static final int sp_25 = 2131166438;
+    public static final int sp_28 = 2131166439;
+    public static final int sp_30 = 2131166440;
+    public static final int sp_32 = 2131166441;
+    public static final int sp_34 = 2131166442;
+    public static final int sp_36 = 2131166443;
+    public static final int sp_38 = 2131166444;
+    public static final int sp_40 = 2131166446;
+    public static final int sp_42 = 2131166447;
+    public static final int sp_48 = 2131166448;
+    public static final int sp_6 = 2131166449;
+    public static final int sp_7 = 2131166450;
+    public static final int sp_8 = 2131166451;
+    public static final int sp_9 = 2131166452;
+    public static final int status_icon = 2131166453;
+    public static final int text_margin = 2131166458;
+    public static final int text_padding = 2131166459;
+    public static final int text_padding_mini = 2131166460;
+    public static final int text_title_size = 2131166461;
+    public static final int title_height = 2131166464;
+    public static final int title_width = 2131166465;
+    public static final int toolbar_height = 2131166466;
+    public static final int txt_content_size = 2131166475;
+    public static final int txt_title_size = 2131166476;
+
+    public C0530R$dimen() {
+        throw null;
+    }
+}

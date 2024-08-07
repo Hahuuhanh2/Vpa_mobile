@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/nav_board" app:startDestination="@+id/navigation_home">
+    <fragment android:icon="@drawable/ic_home_on" android:name="com.vpa.daugia.module.home.ui.HomeFragment" android:id="@+id/navigation_home" android:title="@string/title_home"/>
+    <fragment android:icon="@drawable/ic_users" android:name="com.vpa.daugia.module.menu.ui.fragment.MenuFragment" android:id="@+id/navigation_active" android:title="Hoạt động"/>
+    <fragment android:icon="@drawable/ic_time_forward" android:name="com.vpa.daugia.module.menu.ui.fragment.MenuFragment" android:id="@+id/navigation_history" android:title="Lịch sử"/>
+    <fragment android:icon="@drawable/ic_menu_black_24dp" android:name="com.vpa.daugia.module.menu.ui.fragment.MenuFragment" android:id="@+id/navigation_menu" android:title="@string/title_menu"/>
+</navigation>

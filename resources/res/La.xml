@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/container" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.ots.core.utils.customview.textview.AppTextView android:gravity="center_vertical" android:id="@+id/dropTextView" android:background="@drawable/bg_form_input_8" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dp_50" android:drawablePadding="@dimen/dp_8" android:inputType="number" android:drawableEnd="@drawable/ic_arrow_down" style="@style/EditTextStyle"/>
+</LinearLayout>

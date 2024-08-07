@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/activity_terms_of_use_0" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/dp_16" android:paddingRight="@dimen/dp_16" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="@dimen/dp_16">
+            <ImageButton android:id="@+id/btnBack" android:background="?attr/selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_16" android:layout_marginBottom="@dimen/dp_16" android:src="@drawable/ps_ic_back" android:layout_marginVertical="@dimen/dp_16" app:tint="@color/black"/>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/ic_banner" android:padding="@dimen/dp_16" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Điều khoản sử dụng"/>
+                <TextView android:textColor="#434343" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8" android:text="Cập nhật lần cuối \10ngày 12/12/2023"/>
+            </LinearLayout>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8" android:text=""/>
+            <TextView android:textSize="16sp" android:textColor="@color/main_bg" android:layout_gravity="end" android:id="@+id/tvClose" android:paddingLeft="@dimen/dp_16" android:paddingRight="@dimen/dp_16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_32" android:text="Đóng" android:drawablePadding="@dimen/dp_8" android:paddingHorizontal="@dimen/dp_16" app:drawableRightCompat="@drawable/ic_home_next"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

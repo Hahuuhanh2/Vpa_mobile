@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/activity_read_qr_code_0" android:background="@drawable/bg_auth" android:paddingLeft="@dimen/dp_20" android:paddingRight="@dimen/dp_20" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="@dimen/dp_20">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8">
+            <ImageButton android:id="@+id/btnBack" android:background="?attr/actionBarItemBackground" android:layout_width="@dimen/dp_48" android:layout_height="@dimen/dp_48" android:src="@drawable/ic_back"/>
+            <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_20" android:textColor="@color/white" android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Đăng ký" android:layout_weight="1" android:textAllCaps="true"/>
+            <ImageButton android:background="@color/transparent" android:layout_width="@dimen/dp_48" android:layout_height="@dimen/dp_48"/>
+        </LinearLayout>
+        <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_24" android:textColor="@color/white" android:id="@+id/tvQuestion" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8" android:text="Đọc QR"/>
+        <com.ots.core.utils.customview.textview.AppTitleTextView android:textSize="@dimen/sp_14" android:textColor="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_42" android:text="Mặt trước của giấy tờ" android:fontFamily="@font/sf_pro_display" app:textRequired="true"/>
+    </LinearLayout>
+</RelativeLayout>

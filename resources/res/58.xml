@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:tag="layout/item_title_utilities_0" android:paddingTop="@dimen/dp_4" android:paddingBottom="@dimen/dp_4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_24" android:layout_marginBottom="@dimen/dp_12" android:paddingVertical="@dimen/dp_4">
+    <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Tiện ích" android:layout_weight="1"/>
+    <TextView android:textSize="16sp" android:textColor="@color/black" android:gravity="end" android:id="@+id/tvSetting" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tuỳ chỉnh" android:drawablePadding="@dimen/dp_8" app:drawableStartCompat="@drawable/ic_setting"/>
+</LinearLayout>

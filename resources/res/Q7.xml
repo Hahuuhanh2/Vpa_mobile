@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="layout/item_info_scope_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_12">
+        <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_12" android:textColor="@color/dark_400" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Tỉnh/ thành phố" android:layout_weight="0.5"/>
+        <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_14" android:textColor="@color/dark_400" android:gravity="end" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Thành phố Hà Nội" android:layout_weight="1" android:layout_marginStart="@dimen/dp_8" app:styleText="1"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_4">
+        <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_12" android:textColor="@color/dark_400" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Loại xe" android:layout_weight="0.5"/>
+        <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_14" android:textColor="@color/dark_400" android:gravity="end" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Xe tải van" android:layout_weight="1" android:layout_marginStart="@dimen/dp_8" app:styleText="1"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_4">
+        <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_12" android:textColor="@color/dark_400" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Khoảng biển" android:layout_weight="0.5"/>
+        <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_14" android:textColor="@color/dark_400" android:gravity="end" android:layout_width="0dp" android:layout_height="wrap_content" android:text="16A 001.01 - 16A 002.00" android:layout_weight="1" android:layout_marginStart="@dimen/dp_8" app:styleText="1"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_4">
+        <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_12" android:textColor="@color/dark_400" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Số lượng" android:layout_weight="0.5"/>
+        <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_14" android:textColor="@color/dark_400" android:gravity="end" android:layout_width="0dp" android:layout_height="wrap_content" android:text="100" android:layout_weight="1" android:layout_marginStart="@dimen/dp_8" app:styleText="1"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/line" android:background="@drawable/ic_line" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_12"/>
+</LinearLayout>

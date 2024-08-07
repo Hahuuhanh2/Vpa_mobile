@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="layout/activity_notification_manager_0" android:background="@drawable/bg_home" android:paddingLeft="@dimen/dp_20" android:paddingRight="@dimen/dp_20" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="@dimen/dp_20">
+    <include android:id="@+id/toolbar" layout="@layout/layout_toolbar"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/lnBody" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_24">
+            <com.ots.base.utils.customview.GradientTextView android:gravity="center_vertical" android:id="@+id/tvReadAll" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Đọc tất cả" android:drawablePadding="@dimen/dp_8" android:layout_weight="1" android:drawableStart="@drawable/ic_tick_double"/>
+            <ImageView android:id="@+id/ivMore" android:paddingLeft="@dimen/dp_8" android:paddingRight="@dimen/dp_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_more" android:layout_marginStart="@dimen/dp_8" android:paddingHorizontal="@dimen/dp_8"/>
+        </LinearLayout>
+        <com.google.android.material.divider.MaterialDivider android:layout_width="match_parent" android:layout_height="@dimen/dp_1" android:layout_marginTop="@dimen/dp_16" app:dividerColor="@color/dark_700"/>
+        <com.ots.core.base.BaseRecyclerView android:id="@+id/rcv" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/lnEmpty" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_notify_empty"/>
+        <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_14" android:textColor="@color/dark_500" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_36" android:text="Hiện tại chưa có thông báo nào được \10hiển thị."/>
+    </LinearLayout>
+</LinearLayout>

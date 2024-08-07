@@ -1,0 +1,37 @@
+package com.google.android.recaptcha.internal;
+
+import fk.h;
+import java.lang.reflect.Method;
+import java.util.Arrays;
+
+/* compiled from: com.google.android.recaptcha:recaptcha@@18.5.1 */
+public final class zzfm implements zzfe {
+    public static final zzfm zza = new zzfm();
+
+    private zzfm() {
+    }
+
+    public final void zza(int i10, zzek zzek, zzrr... zzrrArr) {
+        int length = zzrrArr.length;
+        if (length >= 2) {
+            Object zza2 = zzek.zzc().zza(zzrrArr[0]);
+            if (true != (zza2 instanceof Method)) {
+                zza2 = null;
+            }
+            Method method = (Method) zza2;
+            if (method != null) {
+                Object zza3 = zzek.zzc().zza(zzrrArr[1]);
+                Object[] zzg = zzek.zzc().zzg(h.z0(zzrrArr).subList(2, length));
+                try {
+                    zzek.zzc().zze(i10, method.invoke(zza3, Arrays.copyOf(zzg, zzg.length)));
+                } catch (Exception e10) {
+                    throw new zzby(6, 15, e10);
+                }
+            } else {
+                throw new zzby(4, 5, (Throwable) null);
+            }
+        } else {
+            throw new zzby(4, 3, (Throwable) null);
+        }
+    }
+}

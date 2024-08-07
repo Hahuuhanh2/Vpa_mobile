@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/bottom_sheet_select_dialog_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_radius_top_10_dp" android:paddingTop="@dimen/dp_8" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/dp_4">
+        <View android:layout_gravity="center" android:background="@drawable/top_line" android:layout_width="50dp" android:layout_height="4dp" android:layout_margin="2dp"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/container" android:paddingLeft="@dimen/dp_8" android:paddingRight="@dimen/dp_8" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:paddingHorizontal="@dimen/dp_8">
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/gray_900" android:gravity="center" android:id="@+id/tvTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_4" android:text="Chọn phản ánh"/>
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/rcvItem" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_5" android:layout_marginTop="@dimen/dp_4" android:layout_marginRight="@dimen/dp_5" android:layout_marginHorizontal="@dimen/dp_5">
+            <com.google.android.material.button.MaterialButton android:textColor="@color/white" android:id="@+id/btnBack" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/back" android:layout_weight="1" android:textAllCaps="true" app:backgroundTint="@color/gray_500" app:cornerRadius="@dimen/dp_6"/>
+            <com.google.android.material.button.MaterialButton android:textColor="@color/white" android:id="@+id/btnChoose" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/choose" android:layout_weight="1" android:textAllCaps="true" android:layout_marginStart="@dimen/dimen_5" app:cornerRadius="@dimen/dp_6" app:rippleColor="@color/gray_500" style="@style/Widget.Material3.Button.IconButton.Filled"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

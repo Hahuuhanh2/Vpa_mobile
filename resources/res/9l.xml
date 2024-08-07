@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/main" android:tag="layout/activity_policy_and_term_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/dp_12" android:layout_marginRight="@dimen/dp_12" android:layout_marginHorizontal="@dimen/dp_12">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8" android:layout_alignParentTop="true">
+            <ImageButton android:id="@+id/btnBack" android:background="@drawable/ic_back" android:layout_width="@dimen/dp_45" android:layout_height="@dimen/dp_45"/>
+            <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_20" android:textColor="@color/white" android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Xác minh tài khoản" android:layout_weight="1" android:textAllCaps="true"/>
+            <ImageButton android:id="@+id/btnClose" android:background="?attr/actionBarItemBackground" android:layout_width="@dimen/dp_48" android:layout_height="@dimen/dp_48" android:src="@drawable/button_close"/>
+        </LinearLayout>
+        <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/toolbar">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_12">
+                <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_14" android:textColor="@color/dark_100" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Bắt đầu xác minh danh tính sau khi hiểu rõ các quy định\10khi xác minh và các bước dưới đây:"/>
+                <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_24" app:cardBackgroundColor="@color/dark_700" app:strokeWidth="@dimen/dp_1">
+                    <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/dp_8" android:paddingTop="@dimen/dp_16" android:paddingRight="@dimen/dp_8" android:paddingBottom="@dimen/dp_16" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/dp_8" android:paddingVertical="@dimen/dp_16">
+                        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                            <ImageView android:background="@drawable/ic_identification" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                            <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_12" android:textColor="@color/dark_100" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8" android:text="Chụp ảnh\10giấy tờ tuỳ thân"/>
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                            <ImageView android:background="@drawable/ic_front_image" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                            <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_12" android:textColor="@color/dark_100" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8" android:text="Xác thực\10khuôn mặt"/>
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                            <ImageView android:background="@drawable/ic_back_image" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                            <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_12" android:textColor="@color/dark_100" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8" android:text="Xác thưc\10thông tin"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+                <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_14" android:textColor="@color/dark_100" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_24" android:text="Để thực hiện đấu giá bạn cần phải xác minh tài khoản với mục đích:"/>
+                <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_12" android:textColor="@color/dark_100" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="• Nâng cao bảo mật" android:layout_marginStart="@dimen/dp_8"/>
+                <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_12" android:textColor="@color/dark_100" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="• An toàn bảo mật thông tin" android:layout_marginStart="@dimen/dp_8"/>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <LinearLayout android:id="@+id/lnCb" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_48" android:layout_above="@+id/button">
+            <CheckBox android:textColor="#aaa6b9" android:id="@+id/checkBox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10" android:checked="false"/>
+            <com.ots.core.utils.customview.textview.AppTextView android:textColor="@color/dark_100" android:id="@+id/tvPolicy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bằng việc nhấn tiếp tục bạn đã hiểu \10và đồng ý với các \10điều khoản sử dụng của hệ thống"/>
+        </LinearLayout>
+        <com.google.android.material.button.MaterialButton android:enabled="false" android:textSize="@dimen/sp_14" android:textColor="@color/color_button" android:layout_gravity="center_horizontal" android:id="@+id/button" android:background="@drawable/button_selector" android:layout_width="match_parent" android:layout_height="@dimen/height_button" android:layout_marginTop="@dimen/dp_16" android:layout_marginBottom="@dimen/dp_16" android:text="Tiếp theo" android:layout_alignParentBottom="true" android:fontFamily="@font/sf_pro_display" app:backgroundTint="@null" app:cornerRadius="@dimen/dp_6"/>
+    </RelativeLayout>
+</LinearLayout>

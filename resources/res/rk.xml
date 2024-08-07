@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/widget_search_view_0" android:layout_width="match_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/white" app:cardCornerRadius="@dimen/dimen_8" app:strokeColor="@color/gray_300">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fab_margin" android:layout_marginRight="@dimen/fab_margin" android:layout_marginHorizontal="@dimen/fab_margin">
+        <ImageView android:id="@+id/ivSearch" android:background="@drawable/ic_search" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_alignParentStart="true" app:tint="@color/gray_600"/>
+        <EditText android:textColor="@color/color_edittext" android:id="@+id/edtForm" android:background="@color/fui_transparent" android:layout_width="match_parent" android:layout_height="@dimen/dimen_36" android:layout_margin="@dimen/dimen_8" android:hint="@string/dev_demo" android:layout_centerInParent="true" android:layout_toStartOf="@+id/ivClose" android:layout_toEndOf="@+id/ivSearch"/>
+        <ImageView android:id="@+id/ivClose" android:background="@drawable/ic_close" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_alignParentEnd="true" app:tint="@color/gray_600"/>
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>

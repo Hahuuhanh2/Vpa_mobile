@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:height="76dp" android:width="86dp" android:viewportWidth="86" android:viewportHeight="76">
+    <path android:fillColor="#fceaea" android:pathData="M42,76C62.986,76 80,59.02 80,38C80,16.98 62.986,0 42,0C21.014,0 4,16.98 4,38C4,59.02 21.014,76 42,76Z"/>
+    <path android:fillColor="#fceaea" android:pathData="M82.5,24C84.433,24 86,22.433 86,20.5C86,18.567 84.433,17 82.5,17C80.567,17 79,18.567 79,20.5C79,22.433 80.567,24 82.5,24Z"/>
+    <path android:fillColor="#fceaea" android:pathData="M82,9C83.105,9 84,8.105 84,7C84,5.895 83.105,5 82,5C80.895,5 80,5.895 80,7C80,8.105 80.895,9 82,9Z"/>
+    <path android:fillColor="#fceaea" android:pathData="M2,11C3.105,11 4,10.105 4,9C4,7.895 3.105,7 2,7C0.895,7 0,7.895 0,9C0,10.105 0.895,11 2,11Z"/>
+    <path android:fillColor="#fceaea" android:pathData="M9,76C11.209,76 13,74.209 13,72C13,69.791 11.209,68 9,68C6.791,68 5,69.791 5,72C5,74.209 6.791,76 9,76Z"/>
+    <path android:fillColor="#ffc565" android:pathData="M50.222,51.319H33.448C31.6,51.319 30.107,49.824 30.107,47.972V24.681C30.107,18.199 35.367,13 41.764,13C48.16,13 53.42,18.271 53.42,24.681V48.043C53.491,49.824 51.998,51.319 50.222,51.319ZM36.788,44.695H46.881V24.681C46.881,21.903 44.607,19.624 41.835,19.624C39.063,19.624 36.788,21.903 36.788,24.681V44.695Z"/>
+    <path android:fillColor="@drawable/$ic_logo_lock__0" android:pathData="M57.116,57.658H26.767C24.706,57.658 23,55.949 23,53.883V33.727C23,31.661 24.706,29.952 26.767,29.952H57.116C59.177,29.952 60.883,31.661 60.883,33.727V53.883C60.883,55.949 59.177,57.658 57.116,57.658Z"/>
+    <path android:fillColor="#fceaea" android:pathData="M45.744,40.707C45.744,42.202 44.891,43.484 43.683,44.125V48.257C43.683,49.254 42.901,50.037 41.906,50.037C40.911,50.037 40.129,49.254 40.129,48.257V44.125C38.921,43.484 38.068,42.202 38.068,40.707C38.068,38.57 39.773,36.86 41.906,36.86C44.038,36.86 45.744,38.57 45.744,40.707Z"/>
+</vector>

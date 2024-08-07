@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/main" android:tag="layout/activity_web_view_0" android:background="@drawable/bg_home" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/toolbar" android:tag="binding_1" android:paddingLeft="@dimen/dp_12" android:paddingRight="@dimen/dp_12" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/dp_12">
+        <include android:id="@+id/viewToolbar" layout="@layout/layout_toolbar"/>
+    </LinearLayout>
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/toolbar">
+        <TextView android:textColor="@color/white" android:id="@+id/tvTile" android:padding="@dimen/dp_8" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </androidx.core.widget.NestedScrollView>
+    <WebView android:id="@+id/webView" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/toolbar"/>
+</RelativeLayout>

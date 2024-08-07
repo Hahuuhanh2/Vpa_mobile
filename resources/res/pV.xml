@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/container" android:tag="layout/item_favorite_menu_0" android:layout_width="@dimen/dp_96" android:layout_height="@dimen/dp_88" android:layout_marginTop="@dimen/dp_4" android:elevation="@dimen/dp_2">
+    <com.google.android.material.card.MaterialCardView android:id="@+id/card" android:tag="binding_1" android:layout_width="@dimen/dp_96" android:layout_height="@dimen/dp_88" android:layout_alignParentBottom="true" app:cardCornerRadius="@dimen/dp_8" app:strokeWidth="0dp">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="@dimen/dp_88">
+            <ImageView android:layout_gravity="center" android:id="@+id/ivIconMenu" android:tag="binding_2" android:layout_width="@dimen/dp_45" android:layout_height="@dimen/dp_45"/>
+            <com.ots.core.utils.customview.textview.AppTitleTextView android:textSize="@dimen/sp_10" android:gravity="center" android:id="@+id/tvTitle" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_4"/>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+    <ImageView android:id="@+id/btnClose" android:background="@drawable/ic_close_image" android:paddingTop="@dimen/dp_4" android:layout_width="@dimen/dp_24" android:layout_height="@dimen/dp_24" android:layout_alignParentTop="true" android:paddingEnd="@dimen/dp_4" android:layout_marginStart="@dimen/dp_8" android:layout_alignParentEnd="true"/>
+</RelativeLayout>

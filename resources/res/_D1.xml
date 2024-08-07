@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/dialog_info_auction_0" android:layout_width="match_parent" android:layout_height="wrap_content" app:cardBackgroundColor="#192639" app:cardCornerRadius="@dimen/dp_16" app:cardElevation="5dp" app:cardUseCompatPadding="true" app:strokeWidth="0dp">
+    <RelativeLayout android:paddingTop="@dimen/dp_10" android:paddingBottom="@dimen/dp_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/dp_10">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/lnTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10" android:layout_marginRight="@dimen/dp_10" android:layout_marginHorizontal="@dimen/dp_10">
+            <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_20" android:textColor="@color/white" android:tag="binding_1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:fontFamily="@font/sf_pro_display" app:styleText="1"/>
+            <ImageButton android:id="@+id/btnClose" android:background="?attr/selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close"/>
+        </LinearLayout>
+        <com.google.android.material.divider.MaterialDivider android:id="@+id/line" android:layout_width="match_parent" android:layout_height="@dimen/dp_1" android:layout_marginTop="@dimen/dp_8" android:layout_below="@+id/lnTitle" app:dividerColor="@color/dark_800"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/lnBody" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10" android:layout_marginTop="@dimen/dp_14" android:layout_marginRight="@dimen/dp_10" android:layout_below="@+id/line" android:layout_marginHorizontal="@dimen/dp_10">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_12" android:textColor="@color/dark_500" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Thời gian mở đăng ký" android:layout_weight="1"/>
+                <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_12" android:textColor="@color/dark_100" android:gravity="end" android:tag="binding_2" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="@dimen/dp_8"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_16">
+                <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_12" android:textColor="@color/dark_500" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Thời gian kết thúc đăng ký" android:layout_weight="1"/>
+                <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_12" android:textColor="@color/dark_100" android:gravity="end" android:tag="binding_3" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="@dimen/dp_8"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:tag="binding_4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_16">
+                <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_12" android:textColor="@color/dark_500" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Thời gian bắt đầu đấu giá" android:layout_weight="1"/>
+                <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_12" android:textColor="@color/dark_100" android:gravity="end" android:tag="binding_5" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="@dimen/dp_8"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:tag="binding_6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_16">
+                <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_12" android:textColor="@color/dark_500" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Thời gian kết thúc đấu giá" android:layout_weight="1"/>
+                <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_12" android:textColor="@color/dark_100" android:gravity="end" android:tag="binding_7" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:layout_marginStart="@dimen/dp_8"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>

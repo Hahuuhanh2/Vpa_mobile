@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/dp_8" app:cardBackgroundColor="@color/white" app:strokeColor="@color/white" app:strokeWidth="@null">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/item_padding_small" android:paddingBottom="@dimen/global_padding_large" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:layout_gravity="center_horizontal" android:layout_width="60dp" android:layout_height="4dp"/>
+        <TextView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/item_padding" android:layout_marginBottom="@dimen/item_padding" android:text="@string/txt_time_pick"/>
+        <com.github.florent37.singledateandtimepicker.SingleDateAndTimePicker android:id="@+id/timePicker" android:layout_width="wrap_content" android:layout_height="230dp" app:picker_curved="false" app:picker_cyclic="false" app:picker_dayCount="31" app:picker_mustBeOnFuture="false" app:picker_stepSizeMinutes="10" app:picker_todayText="title_today" app:picker_visibleItemCount="7"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/llConfirm" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/sp_14" android:textColor="@color/red" android:gravity="center" android:id="@+id/btnCancel" android:background="@color/gray_300" android:paddingTop="@dimen/dp_10" android:paddingBottom="@dimen/dp_10" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1" android:paddingVertical="@dimen/dp_10"/>
+            <View android:id="@+id/v_ui_line" android:background="@color/gray_200" android:layout_width="1dp" android:layout_height="match_parent"/>
+            <TextView android:textSize="@dimen/sp_14" android:textColor="@color/white" android:gravity="center" android:id="@+id/btnConfirm" android:background="@color/main_bg" android:paddingTop="@dimen/dp_10" android:paddingBottom="@dimen/dp_10" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/confirm" android:layout_weight="1" android:paddingVertical="@dimen/dp_10"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

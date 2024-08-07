@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/cardview_dark_background" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardCornerRadius="5dp" app:cardElevation="5dp" app:cardUseCompatPadding="true">
+    <LinearLayout android:id="@+id/marker_window_container" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/imageView" android:padding="2dp" android:layout_width="50dp" android:layout_height="50dp" android:src="@drawable/vpa_logo_white" android:scaleType="centerInside"/>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5dp">
+            <TextView android:textStyle="bold" android:ellipsize="end" android:id="@+id/marker_window_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+            <TextView android:ellipsize="end" android:id="@+id/marker_window_snippet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

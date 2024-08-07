@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/main" android:tag="layout/fragment_auction_0" android:background="@drawable/bg_auction" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_16" android:layout_marginTop="@dimen/dp_16" android:layout_marginRight="@dimen/dp_16" android:layout_marginHorizontal="@dimen/dp_16">
+            <ImageView android:id="@+id/ivLogo" android:layout_width="@dimen/dp_48" android:layout_height="@dimen/dp_48" android:src="@drawable/ic_logo"/>
+            <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_22" android:textColor="@color/white" android:id="@+id/title" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Phòng chờ đấu giá" android:layout_weight="1" android:textAllCaps="true" android:layout_marginStart="@dimen/dp_8" app:styleText="1"/>
+        </LinearLayout>
+        <com.ots.base.utils.customview.TimerView android:textSize="@dimen/sp_14" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_16" android:layout_marginTop="@dimen/dp_12" android:layout_marginRight="@dimen/dp_16" android:text="12/12/2024" android:fontFamily="@font/sf_pro_display" android:layout_marginHorizontal="@dimen/dp_16"/>
+        <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:id="@+id/llLogin" android:tag="binding_1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_16">
+                <include android:id="@+id/viewLogin" layout="@layout/view_login_auction"/>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <LinearLayout android:id="@+id/llRcv" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.ots.core.base.BaseRecyclerView android:id="@+id/rcv" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

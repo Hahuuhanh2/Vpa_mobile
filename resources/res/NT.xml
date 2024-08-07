@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:height="@dimen/dp_24" android:width="@dimen/dp_24" android:viewportWidth="25" android:viewportHeight="24">
+    <path android:fillColor="#00000000" android:pathData="M16,4H17C19.209,4 21,5.791 21,8V18C21,20.209 19.209,22 17,22H7C4.791,22 3,20.209 3,18V8C3,5.791 4.791,4 7,4H8M16,4C16,5.105 15.105,6 14,6H10C8.895,6 8,5.105 8,4M16,4C16,2.895 15.105,2 14,2H10C8.895,2 8,2.895 8,4M12,10H16M12,14H16M12,18H16" android:strokeColor="@drawable/$ic_task_on__0" android:strokeWidth="1.5" android:strokeLineCap="round"/>
+    <path android:fillColor="@drawable/$ic_task_on__1" android:pathData="M9.5,10C9.5,10.552 9.052,11 8.5,11C7.948,11 7.5,10.552 7.5,10C7.5,9.448 7.948,9 8.5,9C9.052,9 9.5,9.448 9.5,10Z"/>
+    <path android:fillColor="@drawable/$ic_task_on__2" android:pathData="M9.5,14C9.5,14.552 9.052,15 8.5,15C7.948,15 7.5,14.552 7.5,14C7.5,13.448 7.948,13 8.5,13C9.052,13 9.5,13.448 9.5,14Z"/>
+    <path android:fillColor="@drawable/$ic_task_on__3" android:pathData="M9.5,18C9.5,18.552 9.052,19 8.5,19C7.948,19 7.5,18.552 7.5,18C7.5,17.448 7.948,17 8.5,17C9.052,17 9.5,17.448 9.5,18Z"/>
+</vector>

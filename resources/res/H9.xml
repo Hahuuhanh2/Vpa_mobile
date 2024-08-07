@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="layout/item_selection_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dp_20" android:paddingEnd="@dimen/dp_20">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.ots.core.utils.customview.textview.AppTextView android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/radio" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" app:styleText="1"/>
+        <RadioButton android:id="@+id/checkBox" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <View android:background="@drawable/gradientdiv_vertical" android:layout_width="match_parent" android:layout_height="1dp"/>
+</LinearLayout>

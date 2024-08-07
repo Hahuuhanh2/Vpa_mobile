@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/main" android:tag="layout/activity_plate_selection_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_16" android:layout_marginRight="@dimen/dp_16" android:layout_marginHorizontal="@dimen/dp_16" layout="@layout/layout_toolbar"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/dp_16" android:layout_marginTop="@dimen/dp_16" android:layout_marginRight="@dimen/dp_16" android:layout_above="@+id/llFunction" android:layout_below="@+id/toolbar" android:layout_marginHorizontal="@dimen/dp_16">
+        <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_16" android:textColor="#cbd4e1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tổng biển số: 4"/>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/rvPlate" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/dp_10"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/llFunction" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dp_16" android:layout_alignParentBottom="true">
+        <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_14" android:textColor="#e2e8f0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="20 biển số trong danh sách lựa chọn đã đến thời gian đăng ký. Bạn có đồng ý chuyển vào giỏ hàng để thanh toán."/>
+        <Button android:textSize="@dimen/sp_16" android:id="@+id/btnConfirm" android:background="@drawable/bg_button" android:layout_width="match_parent" android:layout_height="@dimen/dp_52" android:layout_marginTop="@dimen/dp_16" android:text="@string/confirm" android:fontFamily="@font/sf_pro_display" app:backgroundTint="@null"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/itemView" android:tag="layout/item_news_home_0" android:background="@drawable/bg_form_plate" android:padding="@dimen/dp_8" android:layout_width="@dimen/dp_200" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_10">
+    <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" app:cardCornerRadius="@dimen/dp_8" app:strokeColor="@color/transparent">
+        <ImageView android:gravity="center" android:id="@+id/tvPlate" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="@dimen/dp_96" android:scaleType="centerCrop"/>
+    </com.google.android.material.card.MaterialCardView>
+    <TextView android:textSize="@dimen/sp_14" android:textStyle="bold" android:textColor="@color/dark_400" android:ellipsize="end" android:id="@+id/tvVehicleType" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8" android:maxLines="2" android:lines="2"/>
+    <TextView android:textSize="@dimen/sp_12" android:textColor="@color/dark_400" android:ellipsize="end" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_4" android:maxWidth="@dimen/dp_136" android:maxLines="2" android:lines="2"/>
+    <TextView android:textSize="@dimen/sp_12" android:textColor="@color/dark_500" android:gravity="center_vertical" android:tag="binding_4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8" android:drawablePadding="@dimen/dp_2" app:drawableStartCompat="@drawable/ic_clock"/>
+</LinearLayout>

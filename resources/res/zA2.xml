@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="layout/item_forgot_step_2_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/lnStep1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/step1" android:background="@drawable/ic_check" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_12" android:textColor="#fdfeff" android:id="@+id/tvContent1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Nhập thông tin"/>
+    </LinearLayout>
+    <com.google.android.material.divider.MaterialDivider android:id="@+id/line1" android:layout_width="@dimen/dp_64" android:layout_height="@dimen/dp_2" android:layout_marginTop="@dimen/dp_12" android:layout_marginStart="-8dp" android:layout_toEndOf="@+id/lnStep1" app:dividerColor="@color/dark_700"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/lnStep2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="-8dp" android:layout_toEndOf="@+id/line1">
+        <ImageView android:id="@+id/step2" android:background="@drawable/ic_number_two_selected" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_12" android:textColor="#fdfeff" android:id="@+id/tvContent2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Nhập mã OTP"/>
+    </LinearLayout>
+    <com.google.android.material.divider.MaterialDivider android:id="@+id/line2" android:layout_width="@dimen/dp_64" android:layout_height="@dimen/dp_2" android:layout_marginTop="@dimen/dp_12" android:layout_marginStart="-8dp" android:layout_toEndOf="@+id/lnStep2" app:dividerColor="@color/dark_700"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/lnStep3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="-8dp" android:layout_toEndOf="@+id/line2">
+        <ImageView android:id="@+id/step3" android:background="@drawable/ic_number_three" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_12" android:textColor="#fdfeff" android:id="@+id/tvContent3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Đổi mật khẩu"/>
+    </LinearLayout>
+</RelativeLayout>

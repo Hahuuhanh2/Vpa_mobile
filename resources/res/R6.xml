@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/main" android:tag="layout/activity_announcement_list_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:tag="binding_1" android:background="@drawable/bg_home" android:paddingLeft="@dimen/dp_12" android:paddingRight="@dimen/dp_12" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="@dimen/dp_12">
+        <include android:id="@+id/toolbar" android:layout_alignParentTop="true" layout="@layout/layout_toolbar"/>
+        <RelativeLayout android:id="@+id/rlFilter" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_20" android:layout_below="@+id/toolbar">
+            <androidx.appcompat.widget.SearchView android:theme="@style/SearchView" android:id="@+id/searchView" android:background="@drawable/bg_filter_button" android:layout_width="match_parent" android:layout_height="@dimen/dp_56" android:maxLength="255" android:layout_marginEnd="@dimen/dp_16" android:layout_toStartOf="@+id/btnFilter" app:closeIcon="@drawable/ic_close_sv" app:iconifiedByDefault="false" app:queryBackground="@android:color/transparent" app:queryHint="Tìm kiếm biển số" app:searchIcon="@drawable/ic_search"/>
+            <ImageButton android:id="@+id/btnFilter" android:background="@drawable/bg_filter_button" android:layout_width="@dimen/dp_56" android:layout_height="@dimen/dp_56" android:src="@drawable/ic_filter" android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <TextView android:textColor="@color/white" android:id="@+id/tvInfo" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Danh sách công bố đấu giá tháng 8, tháng 9 năm 2023" android:layout_below="@+id/rlFilter"/>
+        <com.ots.core.base.BaseRecyclerView android:id="@+id/rvAnnouncement" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/dp_16" android:layout_below="@+id/tvInfo"/>
+        <com.ots.base.utils.customview.EmptyView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" app:evIcon="@drawable/ic_notebook" app:evMessage="Chúng tôi sẽ thông báo đến bạn ngay khi danh sách đấu giá được công bố." app:evTitle="Chưa có biển số"/>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

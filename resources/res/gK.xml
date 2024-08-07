@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="layout/fragment_news_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.appcompat.widget.SearchView android:theme="@style/SearchView" android:id="@+id/searchView" android:background="@drawable/bg_form_input_8_stoke_gray_400" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLength="255" android:elevation="@dimen/dp_2" app:closeIcon="@drawable/ic_close_sv" app:iconifiedByDefault="false" app:queryBackground="@android:color/transparent" app:queryHint="Nhập thông tin tìm kiếm...." app:searchIcon="@drawable/ic_search"/>
+    <com.ots.core.base.BaseRecyclerView android:id="@+id/rcv" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

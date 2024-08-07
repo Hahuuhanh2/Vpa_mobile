@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/main" android:tag="layout/activity_cart_manager_0" android:background="@drawable/bg_home" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_16" android:layout_marginTop="@dimen/dp_8" android:layout_marginRight="@dimen/dp_16" android:layout_marginHorizontal="@dimen/dp_16" layout="@layout/layout_toolbar"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/dp_16">
+        <com.google.android.material.tabs.TabLayout android:textSize="@dimen/sp_12" android:id="@+id/tabLayout" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_12" android:layout_marginRight="@dimen/dp_12" android:layout_marginHorizontal="@dimen/dp_12" app:tabIndicatorColor="#01b49a" app:tabIndicatorFullWidth="true" app:tabMode="1" app:tabSelectedTextColor="#fdfeff" app:tabTextColor="#cbd5e1"/>
+        <androidx.viewpager2.widget.ViewPager2 android:id="@+id/viewPager" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.facebook.shimmer.ShimmerFrameLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/shimmer_view_container" android:tag="layout/widget_base_recycler_view_0" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" app:shimmer_duration="800">
+        <LinearLayout android:orientation="vertical" android:tag="binding_1" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/placeholder_item_base"/>
+            <include layout="@layout/placeholder_item_base"/>
+            <include layout="@layout/placeholder_item_base"/>
+            <include layout="@layout/placeholder_item_base"/>
+            <include layout="@layout/placeholder_item_base"/>
+            <include layout="@layout/placeholder_item_base"/>
+            <include layout="@layout/placeholder_item_base"/>
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@+id/swipe_refresh_layout" android:tag="layout/widget_base_recycler_view_2" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerView" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/empty_state_view" android:tag="layout/widget_base_recycler_view_3" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+</merge>

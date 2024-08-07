@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="layout/item_address_selection_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8" android:layout_marginBottom="@dimen/dp_8" android:layout_marginVertical="@dimen/dp_8">
+        <com.ots.core.utils.customview.textview.AppTextView android:textColor="@color/color_selector_item" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/radio" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" app:styleText="1"/>
+        <CheckBox android:id="@+id/checkBox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:button="@drawable/checkbox_selector"/>
+    </LinearLayout>
+    <com.google.android.material.divider.MaterialDivider android:layout_width="match_parent" android:layout_height="@dimen/dp_1" app:dividerColor="#334155"/>
+</LinearLayout>

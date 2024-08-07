@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:textSize="@dimen/sp_14" android:textStyle="bold" android:textColor="@color/dark_300" android:gravity="center" android:id="@+id/legendText1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>

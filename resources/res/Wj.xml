@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/snackbar_base_0" android:layout_width="match_parent" android:layout_height="wrap_content" app:cardBackgroundColor="#242c32" app:cardCornerRadius="@dimen/dp_10" app:strokeColor="@color/fui_transparent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center_vertical" android:id="@+id/container" android:layout_width="match_parent" android:layout_height="@dimen/dp_82">
+            <ImageView android:id="@+id/ivIcon" android:layout_width="@dimen/dp_40" android:layout_height="@dimen/dp_40" android:src="@drawable/ic_warning_base" android:layout_centerInParent="true" android:layout_marginStart="@dimen/dp_16" android:layout_alignParentStart="true"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_16" android:layout_marginRight="@dimen/dp_16" android:layout_centerInParent="true" android:layout_toEndOf="@+id/ivIcon" android:layout_marginHorizontal="@dimen/dp_16">
+                <TextView android:textSize="@dimen/sp_14" android:textStyle="bold" android:textColor="@color/white" android:id="@+id/tvTile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cảnh báo" android:fontFamily="@font/poppins"/>
+                <TextView android:textSize="@dimen/sp_12" android:textColor="#c8c5c5" android:ellipsize="end" android:id="@+id/tvMessage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Đã có người trả giá cao hơn bạn!" android:maxLines="2" android:fontFamily="@font/poppins"/>
+            </LinearLayout>
+            <ImageView android:id="@+id/ivBackground" android:background="@drawable/bg_warning_snack_bar" android:layout_width="match_parent" android:layout_height="@dimen/dp_82" android:scaleType="centerCrop"/>
+        </RelativeLayout>
+        <ImageView android:id="@+id/line" android:background="@drawable/ic_line_warning_snack_bar" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

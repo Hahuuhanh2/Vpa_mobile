@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/white" app:cardElevation="5dp" app:cardUseCompatPadding="true" app:strokeColor="@color/white">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:padding="@dimen/dp_8" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/sp_18" android:textStyle="bold" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@+id/tvTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Title"/>
+        <TextView android:textSize="@dimen/sp_14" android:textColor="@color/navBarItemColor" android:gravity="center_horizontal" android:id="@+id/tvBody" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8" android:text="Body"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_8" android:layout_marginTop="@dimen/dp_8" android:layout_marginRight="@dimen/dp_8" android:layout_marginHorizontal="@dimen/dp_8">
+            <com.google.android.material.button.MaterialButton android:id="@+id/btnCancel" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1" app:cornerRadius="@dimen/dp_8" app:strokeColor="@color/colorPrimary" style="?attr/materialButtonOutlinedStyle"/>
+            <com.google.android.material.button.MaterialButton android:textColor="@color/white" android:id="@+id/btnConfirm" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/confirm" android:layout_weight="1" android:layout_marginStart="@dimen/dp_8" app:backgroundTint="@color/colorPrimary" app:cornerRadius="@dimen/dp_8"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/fragment_transfer_payment_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/dp_16" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_14" android:textColor="#fdfeff" android:gravity="center" android:id="@+id/tv1" android:background="@drawable/bg_circle_gradient" android:layout_width="@dimen/dp_24" android:layout_height="@dimen/dp_24" android:text="1" android:layout_centerVertical="true"/>
+            <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_14" android:textColor="#e2e8f0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/transfer_to_auction_company" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp_12" android:layout_toEndOf="@+id/tv1" android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_16">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_12" android:textColor="#cbd5e1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/scan_qr_to_pay"/>
+                <ImageView android:id="@+id/ivQrCode" android:layout_width="@dimen/dp_120" android:layout_height="@dimen/dp_120" android:layout_marginTop="@dimen/dp_10" android:src="@drawable/sample_qr"/>
+                <com.ots.base.utils.customview.GradientTextView android:layout_gravity="center" android:id="@+id/tvDownload" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10" android:text="@string/save_qr" android:fontFamily="@font/sf_pro_display"/>
+            </LinearLayout>
+            <View android:layout_gravity="center" android:background="#334155" android:layout_width="1dp" android:layout_height="180dp" android:layout_marginLeft="@dimen/dp_16" android:layout_marginRight="@dimen/dp_16" android:layout_marginHorizontal="@dimen/dp_16"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_12" android:textColor="#cbd5e1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bank"/>
+                <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_14" android:textColor="#fdfeff" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_12" android:textColor="#cbd5e1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8" android:text="@string/account_number"/>
+                <RelativeLayout android:id="@+id/accountNumber" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_14" android:textColor="#fdfeff" android:id="@+id/tvAccountNumber" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    <ImageButton android:id="@+id/btnAccountNumber" android:background="?attr/selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_copy" android:layout_alignParentEnd="true"/>
+                </RelativeLayout>
+                <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_12" android:textColor="#cbd5e1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8" android:text="@string/transfer_content"/>
+                <RelativeLayout android:id="@+id/content" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_14" android:textColor="#fdfeff" android:id="@+id/tvContent" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    <ImageButton android:id="@+id/btnContent" android:background="?attr/selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_copy" android:layout_alignParentEnd="true"/>
+                </RelativeLayout>
+                <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_12" android:textColor="#cbd5e1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8" android:text="@string/total_amount"/>
+                <RelativeLayout android:id="@+id/money" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_14" android:textColor="#fdfeff" android:id="@+id/tvMoney" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    <ImageButton android:id="@+id/btnMoney" android:background="?attr/selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_copy" android:layout_alignParentEnd="true"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_14" android:id="@+id/tvNotice" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_16" android:text="@string/payment_notice"/>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_16">
+            <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_14" android:textColor="#fdfeff" android:gravity="center" android:id="@+id/tv2" android:background="@drawable/bg_circle_gradient" android:layout_width="@dimen/dp_24" android:layout_height="@dimen/dp_24" android:text="2" android:layout_centerVertical="true"/>
+            <com.ots.core.utils.customview.textview.AppTextView android:textSize="@dimen/sp_14" android:textColor="#e2e8f0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/your_bank" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp_12" android:layout_toEndOf="@+id/tv2" android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <com.ots.base.ui.AddressEdittext android:id="@+id/tvBank" android:tag="binding_5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_16" app:edtHint="Chọn ngân hàng" app:edtIconEnd="@drawable/ic_direction_down" app:edtIconStart="@drawable/ic_bank" app:edtRequired="true" app:edtTitle="Chọn ngân hàng" app:isError="false">
+            <com.ots.core.utils.customview.textview.AppTextView android:textColor="@color/dark_400" android:gravity="center_vertical" android:background="@color/fui_transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dp_56" android:text="Chọn ngân hàng" android:fontFamily="@font/sf_pro_display" android:paddingStart="@dimen/dp_1" android:paddingEnd="@dimen/dp_5"/>
+        </com.ots.base.ui.AddressEdittext>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
